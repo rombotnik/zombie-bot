@@ -1,4 +1,4 @@
-# zombie-bot
+# Zombie Bot
 A Slack chat bot for surviving the undead apocalypse
 
 ## Setup
