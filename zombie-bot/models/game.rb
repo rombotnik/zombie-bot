@@ -1,6 +1,7 @@
 module ZombieBot
   class Game
-    def initialize
+    def initialize(leader)
+      @leader = leader
       @players = Set.new
     end
 
@@ -14,6 +15,14 @@ module ZombieBot
 
     def player_names
       @players.map { |player| "<@" + player + ">" }.join(', ')
+    end
+
+    def leader
+      "<@" + @leader + ">"
+    end
+
+    def is_leader?(user_id)
+      user_id == @leader
     end
   end
 end
