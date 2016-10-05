@@ -2,7 +2,6 @@
 A Slack chat bot for surviving the undead apocalypse
 
 ## Setup
-
 1. `bundle install`
 1. `cp .env.dist .env`
 1. Fill out `.env` with a [Slack bot token](https://my.slack.com/services/new/bot)
